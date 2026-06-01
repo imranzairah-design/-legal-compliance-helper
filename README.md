@@ -1,7 +1,7 @@
 # -legal-compliance-helper
-Summary
+## Summary
 ​This project proposes an AI-driven tool designed to scan commercial contracts for clauses that conflict with the Contract Act of 1872 or the Partnership Act of 1932. It helps small business owners and students identify potentially unfair or unenforceable terms before signing.
-​Background
+## Background
 ​The Problem: Many small business owners in Pakistan lack the budget for extensive legal review when entering into commercial agreements.
 ​Motivation: As a student of commercial law and accounting, I have observed that discrepancies in partnership deeds and agency agreements often lead to complex financial disputes later.
 ​Importance: This tool provides an accessible layer of initial legal due diligence, promoting better contractual literacy and reducing the risk of costly litigation.
@@ -12,7 +12,7 @@ Summary
 ​Data sources and AI methods
 ​Data Sources: The project uses public archives of the Contract Act of 1872 and the Partnership Act of 1932 as the training foundation.
 ​AI Method: The system utilizes a Transformer-based model (such as a fine-tuned BERT or a RAG-based LLM) to compare user-provided contract text against statutory clauses for semantic similarity and potential non-compliance.
-Challenges
+## Challenges
 ​Limitations: This project does not provide binding legal advice; it is an educational and supportive tool, not a replacement for a qualified attorney.
 ​Ethical Considerations: AI models may suffer from hallucinations or misinterpret nuanced legal language; therefore, all outputs must be marked with a strong disclaimer advising professional verification.
 ​What next?
